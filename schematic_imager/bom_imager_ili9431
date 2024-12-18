@@ -1,0 +1,17 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP" Заголовок
+"BT1","Battery_Cell","~","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","1","" это кейс на 3 батарейки мизинчиковые
+"C1,C2","20pF","~","Capacitor_SMD:C_0402_1005Metric","2",""
+"C3","10мкФ","~","Capacitor_SMD:C_0402_1005Metric","1",""
+"C4,C5,C6,C7,C9","0,1мкФ","~","Capacitor_SMD:C_0402_1005Metric","5",""
+"C8,C10,C11,C12","1мкФ","~","Capacitor_SMD:C_0402_1005Metric","4",""
+"C13","C","~","Capacitor_SMD:C_0402_1005Metric","1","" это тупо посадочное место, чтобы через пинцет если что сбрасывать прошивку
+"D1","LED","~","LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder","1","" индикаторный светодиод, - необязателен, хотя было бы прикольно
+"J1","Conn_01x04_Pin","~","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","1",""  это пины 
+"J2","Conn_01x07_Pin","~","Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical","1",""
+"R1","0R","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","1",""   0 омный резистор, так надо
+"R2","1k","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","1",""   
+"R3,R4,R5","10k","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","3","" 
+"SW1,SW2,SW3","SW_DPST_x2","~","-- смешанные значения --","3",""  посадки для кнопки
+"U1","STM32F103C8Tx","https://www.st.com/resource/en/datasheet/stm32f103c8.pdf","Package_QFP:LQFP-48_7x7mm_P0.5mm","1","" МК
+"U2","MCP1700x-3302E/TT","http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf","Package_TO_SOT_SMD:SOT-23","1",""   регулятор
+"Y1","8MHz","~","Crystal:Crystal_SMD_HC49-SD_HandSoldering","1",""   кварцевый резонатор
